@@ -1,0 +1,95 @@
+/* SETUP LIGHT-MODE e IMGS ICONS */
+.light-mode {
+    background-color: var(--white-bg);
+    color: var(--primary-text);
+  }
+  
+  /* dark mode */
+  .dark-mode {
+    background-color: var(--dark-bg);
+    color: #fff;
+  }
+  
+  .logo {
+    max-height: 100px;
+  }
+  
+  .icon {
+    max-width: 22px;
+  }
+  
+  /* header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid var(--brown-border);
+  }
+  
+  /* BANNER */
+  .banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../../public/assets/banner-barbearia.jpg");
+    background-size: cover;
+    background-position: center top;
+  }
+  
+  /* TEXT CONTAINER */
+  .text-container {
+    padding: 70px 10px 30px 10px;
+    text-align: center;
+  }
+
+  .text-container h1 {
+    font-size: 2.3rem;
+  }
+  
+  .text-container p {
+    margin: 1.4rem 0 1.4rem 0;
+  }
+  
+  .text-container p:first-of-type {
+    font-weight: 500;
+  }
+  
+  .barber-name {
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    color: var(--brown-border);
+    padding-top: 1.3rem;
+  }
+  
+  /* media queries */
+  @media (max-width: 768px) {
+    header {
+      padding: 0 2rem;
+    }
+  
+    .banner {
+      height: 50vh;
+      background-position: 40% center;
+      background-size: cover;
+    }
+    .text-container {
+      padding: 50px 20px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    p {
+      line-height: 1.7;
+    }
+  }
+  
