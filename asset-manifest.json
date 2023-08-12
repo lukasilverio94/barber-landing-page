@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/barber-landing-page/static/css/main.287303cd.css",
+    "main.js": "/barber-landing-page/static/js/main.fee582a7.js",
+    "static/media/banner-barbearia.jpg": "/barber-landing-page/static/media/banner-barbearia.6e5abe93cc1c1bbbc2d0.jpg",
+    "index.html": "/barber-landing-page/index.html",
+    "main.287303cd.css.map": "/barber-landing-page/static/css/main.287303cd.css.map",
+    "main.fee582a7.js.map": "/barber-landing-page/static/js/main.fee582a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.287303cd.css",
+    "static/js/main.fee582a7.js"
+  ]
+}
